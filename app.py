@@ -113,6 +113,7 @@ with tab1:
     ax.legend(loc='upper right')
     ax.grid(True, alpha=0.3)
     ax.set_title(f"Dispersão da Constelação")
+    ax.set_xlabel('Fase do sinal')
     st.pyplot(fig_const)
 
 # --- ABA 2: CURVA BER (NOVO) ---
