@@ -9,7 +9,7 @@
 
 Este projeto visa simular o comportamento de sinais digitais em um canal ruidoso. O sistema divide o problema em duas camadas principais: **Codificação de Linha** (Banda Base) e **Modulação Digital** (Banda Passante), permitindo a análise comparativa entre diferentes técnicas.
 
-![Screenshot do Simulador](print1.png)
+![Screenshot do Simulador](/assets/print1.png)
 
 O objetivo principal é gerar gráficos de **BER (Bit Error Rate) vs SNR (Signal-to-Noise Ratio)** e visualizar constelações em tempo real.
 
@@ -67,15 +67,15 @@ Nesta interface, você pode digitar mensagens personalizadas, ajustar o nível d
 O projeto demonstra conceitos fundamentais da Teoria da Informação:
 - Parametrização de canal, com mensagem a enviar, relação sinal-ruído e esquema de modulação (BPSK ou 16-QAM):
 
-![Screenshot do Simulador](print2.png)
+![Screenshot do Simulador](/assets/print2.png)
 
 - BPSK apresenta maior robustez ao ruído (menor BER com baixo SNR), mas menor eficiência espectral.
 - 16-QAM permite transmitir 4 bits por símbolo, mas exige uma relação sinal-ruído (SNR) muito maior para manter a integridade dos dados (os pontos da constelação são mais próximos).
 
 O gráfico gerado comprova a teoria da "curva de erro" baseada na função Q:
 
-![Screenshot do Simulador](print3.png)
-![Screenshot do Simulador](print4.png)
+![Screenshot do Simulador](/assets/print3.png)
+![Screenshot do Simulador](/assets/print4.png)
 
 ## Tecnologias Utilizadas
 - Python: Linguagem base.
